@@ -1,0 +1,52 @@
+body {
+  background-color: rgb(142, 168, 99);
+}
+
+#jumbovid {
+  width: 100%;
+}
+
+.jumbotron {
+  background-color: transparent;
+}
+
+.jumoverlay {
+  width: 100%;
+  background-color: rgba(85,107,47,0.65);
+  position: relative;
+  bottom: 6.9rem;
+}
+
+.jumoverlay {
+  font-weight: bold;
+  color: #eef2ed;
+  white-space: nowrap;
+  z-index: 2;
+}
+
+#links {
+  background-color: rgb(85,107,47);
+}
+
+.box {
+  height: 150px;
+  width: 150px;
+  border: 2px solid black;
+}
+
+#info .box {
+  height: 25rem;
+  width: 100%;
+  border: 2px solid black;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* Add some padding inside the card container */
+.card-container {
+    padding: 2px 16px;
+}
